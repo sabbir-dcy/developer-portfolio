@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	transition: .4s;
+}
+
+.header:hover {
+	background-color: rgb(250, 236, 199);
+	transition: .4s ease-in-out;
+}
+
+.logo {
+	font-weight: bold;
+	padding-left: 40px;
+}
+
+.nav .list-item{
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.nav a {
+	text-decoration: none;
+	color: black
+}
+
+h1 {
+	font-size: 50px;
+	
+}
+
+.title-tx {
+	color: rgb(55, 165, 192)
+}
+
+section {
+	display: flex;
+}
+
+.intro-content {
+	width: 50%;
+	padding: 5%;
+	margin-top: 75px;
+}
+
+.link-btn {
+	border: none;
+	color:rgb(255, 255, 255);
+	background-image: linear-gradient(to right, rgb(230, 162, 61), rgb(255, 9, 193));
+	padding: 10px;
+	border-radius: 5px;
+	font-weight:600;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.link-btn:hover {
+	background-image: linear-gradient(to right, rgb(116, 204, 231), rgb(180, 175, 142));
+}
+
+.intro-content img {
+	margin-left: 150px;
+	width: 70%;
+	transition: .4s;
+}
+
+.intro-content img:hover {
+	padding-left: 150px;
+	transition: .4s;
+}
+
+.main-content {
+	background-image:linear-gradient(rgb(250, 236, 199), rgb(175, 216, 255));
+	height: 50em;
+	width: 100%;
+	margin-top:30px;
+}
