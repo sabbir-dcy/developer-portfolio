@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
+	background-image: url(images/Slide\ 16_9\ -\ 1.png);
+
 }
 
 .header {
@@ -16,16 +18,22 @@ body {
 
 .logo {
 	font-weight: bold;
-	padding-left: 40px;
+	padding-left: 63px;
+	padding-top: 25px;
 }
 
 .nav .list-item{
 	list-style: none;
 }
 
+.nav ul {
+	padding-right: 100px;
+	padding-top: 25px;
+}
 .nav li {
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 0 30px;
+	font-size: 20px;
 }
 .nav a {
 	text-decoration: none;
@@ -34,6 +42,7 @@ body {
 
 h1 {
 	font-size: 50px;
+	font-weight:bold;
 	
 }
 
@@ -41,20 +50,27 @@ h1 {
 	color: rgb(55, 165, 192)
 }
 
+.top-banner {
+}
+
 section {
 	display: flex;
 }
 
-.intro-content {
+.half-width {
 	width: 50%;
-	padding: 5%;
+	padding: 5% 5% 0;
 	margin-top: 75px;
+}
+
+.all-text {
+	padding-top: 80px;
 }
 
 .link-btn {
 	border: none;
 	color:rgb(255, 255, 255);
-	background-image: linear-gradient(to right, rgb(230, 162, 61), rgb(255, 9, 193));
+	background-image: linear-gradient(to right, rgb(116, 204, 231), rgb(180, 175, 142));
 	padding: 10px;
 	border-radius: 5px;
 	font-weight:600;
@@ -63,18 +79,20 @@ section {
 }
 
 .link-btn:hover {
-	background-image: linear-gradient(to right, rgb(116, 204, 231), rgb(180, 175, 142));
+	background-image: linear-gradient(to right, rgb(230, 162, 61), rgb(255, 9, 193));
+	
 }
 
-.intro-content img {
+.half-width img {
 	margin-left: 150px;
 	width: 70%;
 	transition: .4s;
 }
 
-.intro-content img:hover {
+.half-width img:hover {
 	padding-left: 150px;
 	transition: .4s;
+	
 }
 
 .main-content {
